@@ -3,4 +3,5 @@ var second = 'rana'
 
 var fulleName = first + second;
 
-console.log(fulleName);
+// console.log(fulleName);
+sonsol.log(40 + 2)
