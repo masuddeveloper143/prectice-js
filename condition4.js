@@ -11,7 +11,12 @@ if (myscore > 80) {
         console.log("Good luck next time 👍")
     } else if (frindscore >= 40) {
         console.log("Keep friend's message unseen 😶")
-    } i
+    } else {
+        console.log("bolock your number")
+    }
+
+} else {
+    console.log("go home and sleep")
 
 }
 
