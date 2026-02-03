@@ -10,6 +10,14 @@
 
 
 
+const isPassed = false;
+
+if (isPassed == false){
+    console.log("i will buy a bike ");
+}
+else{
+    console.log("do not by the bike");
+}
 
 
 
