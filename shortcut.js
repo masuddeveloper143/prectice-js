@@ -10,14 +10,26 @@
 
 
 
-const isPassed = true;
+// const isPassed = true;
+//false👇
+// if (!isPassed) {
+//     console.log("do not by the car");
+// }
+// else {
+//     console.log("i will buy a car");
+// }
 
-if (!isPassed) {
-    console.log("do not by the car");
-}
-else {
-    console.log("i will buy a car");
-}
+
+
+// const isPassed = true;
+
+//true👇
+// if (!!isPassed) {
+//     console.log("do not by the car");
+// }
+// else {
+//     console.log("i will buy a car");
+// }
 
 
 
