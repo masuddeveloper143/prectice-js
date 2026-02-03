@@ -10,13 +10,13 @@
 
 
 
-const isPassed = false;
+const isPassed = true;
 
-if (isPassed == false){
-    console.log("i will buy a bike ");
+if (!isPassed) {
+    console.log("do not by the car");
 }
-else{
-    console.log("do not by the bike");
+else {
+    console.log("i will buy a car");
 }
 
 
