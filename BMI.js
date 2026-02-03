@@ -1,4 +1,4 @@
-let weight = 70;
+let weight = 60;
 let heigth = 1.75;
 
 let bim = weight / (heigth * heigth);
