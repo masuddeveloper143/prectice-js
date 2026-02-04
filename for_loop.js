@@ -7,4 +7,11 @@ for (const num of numbers)
 
 const fruits = ['apple', 'banana', 'wtermelon', 'lucchi', 'rose color']
 
-for()
+for(const fruit of fruits){
+console.log(fruit);
+console.log("i want to eat ")
+}
+
+
+
+
