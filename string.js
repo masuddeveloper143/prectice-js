@@ -46,6 +46,19 @@
 // }
 // console.log(hasAllVowels);
 
+let text = "Xylophone example X marks the spot";
+
+if (text.includes('x', 'y')); {
+    text = text.replaceAll('x', 'y');
+}
+
+if (text.includes('X', 'Y')); {
+    text = text.replaceAll('X', 'Y');
+}
+
+console.log(text);
+
+
 
 
 
