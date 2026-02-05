@@ -25,3 +25,16 @@
 // console.log(count);
 
 
+let = "Educstion";
+text = text.toLowerCase();
+
+let vowels = ['a', 'e', 'i', 'o', 'u'];
+let hasAllVowels = true;
+
+for (let i = 0; i < vowels.length; i++) {
+    if (!text.includes(vowels[i])) {
+        hasAllVowels = false;
+        break;
+    }
+}
+console.log(hasAllVowels;)
