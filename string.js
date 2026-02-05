@@ -46,17 +46,36 @@
 // }
 // console.log(hasAllVowels);
 
-let text = "Xylophone example X marks the spot";
+// let text = "Xylophone example X marks the spot";
 
-if (text.includes('x', 'y')); {
-    text = text.replaceAll('x', 'y');
-}
+// if (text.includes('x', 'y')); {
+//     text = text.replaceAll('x', 'y');
+// }
 
-if (text.includes('X', 'Y')); {
-    text = text.replaceAll('X', 'Y');
-}
+// if (text.includes('X', 'Y')); {
+//     text = text.replaceAll('X', 'Y');
+// }
 
-console.log(text);
+// console.log(text);
+
+
+
+// let text = "i am learning javascript ";
+
+// text = text.trim();
+// let words = text.split(" ");
+
+
+// for (let i = 0; i < words.length; i++) {
+
+//     words[i] =
+//         words[i][0].toUpperCase() +
+//         words[i].slice(1);
+// }
+
+// let result = words.join(" ");
+
+// console.log(result);
 
 
 
