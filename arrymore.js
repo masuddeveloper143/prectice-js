@@ -34,14 +34,36 @@
 
 
 
-//----------------------------------------------------------------
+//--------------------------for loop--------------------------------------
 
 
-const number = ['7', '16', '15', '55', '8', '55',]
+// const number = ['7', '16', '15', '55', '8', '55',]
 
-for (let i = 0; i < number.length; i++) {
+// for (let i = 0; i < number.length; i++) {
 
-    console.log(i);
-    console.log(number[i]);
+//     console.log(i);
+//     console.log(number[i]);
 
-}
+// }
+
+//------------------------------while loop---------------------------------------------
+
+// const friends = ['elon', 'bill', 'mark', 'wlen'];
+
+// let i = 0;
+
+// while (i < friends.length) {
+//     console.log(friends[i]);
+//     i++;
+// }
+
+// const friends = ['elon', 'bill', 'mark', 'wlen'];
+
+// let i = 0;
+
+// while (i < friends.length) {
+//     console.log(i);
+//     console.log(friends[i])
+//     i++;
+// }
+
