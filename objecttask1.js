@@ -18,18 +18,57 @@
 // car["messenjar opacty"] = 5
 // console.log(car);
 
-let student = {
-    name: 'hakim uddin',
-    id: 44,
-    
-    physics:{
-        subject: 'HSC physics',
-        anoter: 'hakim alam',
-        marks: 30
+// let student = {
+//     name: 'hakim uddin',
+//     id: 44,
 
-    }
+//     physics:{
+//         subject: 'HSC physics',
+//         anoter: 'hakim alam',
+//         marks: 30
 
+//     }
+
+// }
+
+// console.log(student.physics.marks)
+
+
+
+// Task-4
+// Count the number of properties.👇
+
+// let student = {
+//     name: 'Ariana Grande',
+//     age: 21,
+//     city: 'Gaibandha',
+//     isStudent: true
+// };
+
+// let Count = Object.keys(student).length;
+
+// console.log(Count)
+
+
+// Task-5 (Hard)
+// Loop through an object and print the key-value pairs with their types
+
+// Input:
+
+let myObject = {
+
+    name: 'John Doe',
+    age: 25,
+    city: 'Example City',
+    isStudent: true
+};
+
+// for (let key in myObject){
+//     console.log(key + " : " + myObject[key] + "  (" + typeof myObject[key] + ")  ");
+// }
+
+for (let key in myObject) {
+    console.log("key: " + key + " | type: " + typeof myObject[key]);
 }
 
-console.log(student.physics.marks)
- 
+
