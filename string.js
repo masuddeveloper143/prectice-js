@@ -25,7 +25,14 @@
 // console.log(count);
 
 
-let = "Educstion";
+
+// এক লাইনে মনে রাখো
+
+// এই task “any vowel” না,
+// এই task “ALL vowels” চাচ্ছে।
+
+
+let text = "Educastion";
 text = text.toLowerCase();
 
 let vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -37,4 +44,6 @@ for (let i = 0; i < vowels.length; i++) {
         break;
     }
 }
-console.log(hasAllVowels;)
+console.log(hasAllVowels);
+
+
