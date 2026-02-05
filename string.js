@@ -32,18 +32,23 @@
 // এই task “ALL vowels” চাচ্ছে।
 
 
-let text = "Educastion";
-text = text.toLowerCase();
+// let text = "Educastion";
+// text = text.toLowerCase();
 
-let vowels = ['a', 'e', 'i', 'o', 'u'];
-let hasAllVowels = true;
+// let vowels = ['a', 'e', 'i', 'o', 'u'];
+// let hasAllVowels = true;
 
-for (let i = 0; i < vowels.length; i++) {
-    if (!text.includes(vowels[i])) {
-        hasAllVowels = false;
-        break;
-    }
-}
-console.log(hasAllVowels);
+// for (let i = 0; i < vowels.length; i++) {
+//     if (!text.includes(vowels[i])) {
+//         hasAllVowels = false;
+//         break;
+//     }
+// }
+// console.log(hasAllVowels);
+
+
+
+
+
 
 
