@@ -21,6 +21,8 @@ function brushTeeth() {
     console.log('add paste');
     console.log('2 min goso and goso fena felo');
 }
+
+
+
+
 brushTeeth();
-
-
