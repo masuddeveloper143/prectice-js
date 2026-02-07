@@ -8,7 +8,8 @@ function lerning() {
 
 // lerning();
 
-function square (numbers){
+function square(numbers) {
     console.log(numbers)
+    console.log('value of the number perametter', numbers)
 }
-square();
+square(4);
