@@ -38,10 +38,22 @@
 
 // ------------------------------------------------------------------------------------------------------
 
-function addAll(a, b, c, d, e,) {
-    const total = a + b + c + d + e;
-    console.log("total numbers: ", total);
-}
+// function addAll(a, b, c, d, e) {
 
-addAll(1, 2, 3, 4, 5,);
+//     const total = a + b + c + d + e;
+//     console.log("total numbers: ", total);
+// }
+
+// addAll(1, 2, 3, 4);
+
+
+// function addAll(a, b, c, d, e) {
+
+//     const total = a + b + c + d + e;
+//     console.log(a, b, c, d, e);
+//     console.log("total numbers: ", total);
+// }
+
+// addAll(1, 2, 3, 4);
+// addAll(1, 4, 6, 77, 77,);
 
