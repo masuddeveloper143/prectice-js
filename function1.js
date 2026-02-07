@@ -22,5 +22,10 @@ function brushTeeth() {
     console.log('2 min goso and goso fena felo');
 }
 brushTeeth();
+console.log("-----------------")
+console.log("-----------------")
+console.log("-----------------")
+console.log("gm fadoreiof");
+brushTeeth();
 
 
