@@ -11,3 +11,4 @@ function lerning() {
 function square (numbers){
     console.log(numbers)
 }
+square();
