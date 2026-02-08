@@ -11,5 +11,5 @@ function evenNumbersOnly(numbers) {
 
 
 const result = [4, 4, 5, 7, 4, 3,]
-evenNumbersOnly(result);
+sonst sum = evenNumbersOnly(result);
 console.log('this is the finel number: ', sum);
