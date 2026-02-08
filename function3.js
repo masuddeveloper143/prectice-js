@@ -1,9 +1,15 @@
-function add(price1, price2) {
-    const total = price1 + price2;
+// function add(price1, price2) {
+//     const total = price1 + price2;
 
-    return total;
-}
+//     return total;
+// }
 
-const bill = add(30, 66);
+// const bill = add(30, 66);
+
+// console.log("output: ", bill);
+
+// -----------------------------------------------------------------------------------
+
+
 
 
