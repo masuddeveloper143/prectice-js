@@ -23,12 +23,14 @@
 
 
 function sumOfNumber(numbers) {
-    
-    for(const number of numbers){
+    let sum = 0;
+    for (const number of numbers) {
         console.log(number);
+        sum = sum + number;
     }
+    return sum;
 }
 
 const numbs = [23, 44, 5, 4,]
 const sum = sumOfNumber(numbs);
-console.log('sum of number is');
+console.log('sum of number is', sum);
