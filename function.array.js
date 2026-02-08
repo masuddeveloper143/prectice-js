@@ -31,6 +31,6 @@ function sumOfNumber(numbers) {
     return sum;
 }
 
-const numbs = [23, 44, 5, 4,]
+const numbs = [23, 44,]
 const sum = sumOfNumber(numbs);
 console.log('sum of number is', sum);
