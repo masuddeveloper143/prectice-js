@@ -30,16 +30,36 @@
 
 // --------------------------------------------------------------------------------------
 
-function diffetence(num1, num2) {
-    const diff = num1 - num2;
-    console.log(num1, num2, "difarence is: " ,  diff);
+// function diffetence(num1, num2) {
+//     const diff = num1 - num2;
+//     console.log(num1, num2, "difarence is: " ,  diff);
+// }
+
+// const ftherAge = 40;
+
+// const myAge = 10;
+
+// diffetence(ftherAge, myAge);
+// ------------------------------------------------------------------------------------------
+
+
+function tenTime(number) {
+    const result = number * 10;
+    return result;
+
 }
 
-const ftherAge = 40;
+function cuthalf(number) {
+    const half = number / 2;
+    return half;
+}
 
-const myAge = 10;
+tenTime(5);
 
-diffetence(ftherAge, myAge);
-// ------------------------------------------------------------------------------------------
+const output = tenTime(5);
+console.log("output: ", output);
+
+const bigNumber = tenTime(99);
+console.log("output: ", bigNumber);
 
 
