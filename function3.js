@@ -21,6 +21,10 @@
 
 // ---------------------------------------------------------------------------------------------------
 
-function doMath(num1, num2){
-    const 
+function doMath(num1, num2) {
+    const sum = n(perameter) num1: any
+    const diff = num1 - num2;
+    const multiply = sum * diff;
+    const result = multiply / 2;
+    return result;
 }
