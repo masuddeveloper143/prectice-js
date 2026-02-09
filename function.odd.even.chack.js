@@ -5,8 +5,10 @@
 
 
 function odd_even(num) {
+    // console.log(num);
     if (num % 2 === 0) {
         return "even";
+
     }
     else {
         return "odd";
@@ -14,4 +16,11 @@ function odd_even(num) {
 }
 
 console.log(odd_even(6));
-console.log(odd_even(6));
+console.log(odd_even(7));
+
+// ----------------------------------------------------------------------------------------------------
+// 🔥 Short version (bonus)
+
+function odd_even(num) {
+    return num % 2 === 0 ? "Even" : "Odd";
+}
