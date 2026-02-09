@@ -10,3 +10,6 @@ function oddEvenOperation(num) {
         return num / 2;
     }
 }
+
+console.log(oddEvenOperation(15));
+console.log(oddEvenOperation(20));
