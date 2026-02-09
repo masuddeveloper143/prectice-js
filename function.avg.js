@@ -4,6 +4,15 @@
 
 function make_avg(numbers, size) {
     let sum = 0;
-    for (let i = 0; i < size; i++)
+    for (let i = 0; i < size; i++) {
         sum = sum + numbers[i];
+    }
+
+    const average = sum / size;
+    return average;
+
 }
+
+let arry = [10, 20, 30, 40];
+let result = make_avg(arry, arry.length);
+console.log(result, arry);
