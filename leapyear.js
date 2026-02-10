@@ -31,5 +31,9 @@ function islearYear2(year) {
     }
 }
 
-let resultt = islearYear2(2043)
-console.log(resultt);
+let result1 = islearYear2(2100);
+let result2 = islearYear2(2400);
+let result3 = islearYear2(1900);
+let result4 = islearYear2(2052);
+let result5 = islearYear2(2043);
+console.log(result1, result2, result3, result4, result5);
