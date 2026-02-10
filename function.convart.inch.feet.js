@@ -12,14 +12,19 @@
 
 // this is the string part like a (6feet 3inch) 
 
-function inchToFeet2(inch) {
-    let feetFaction = inch / 12;
-    let feetNumber = parseInt(feetFaction);
-    let inchRemaining = inch % 12;
-    let result = feetNumber + ' ft ' + inchRemaining + ' inch '
-    return result;
-}
+// function inchToFeet2(inch) {
+//     let feetFaction = inch / 12;
+//     let feetNumber = parseInt(feetFaction);
+//     let inchRemaining = inch % 12;
+//     let result = feetNumber + ' ft ' + inchRemaining + ' inch '
+//     return result;
+// }
 
-let ShovoAge = inchToFeet2(75);
-console.log(ShovoAge);
+// let ShovoAge = inchToFeet2(75);
+// console.log(ShovoAge);
+
+// ------------------------------------------------------------------------------------
+
+
+
 
