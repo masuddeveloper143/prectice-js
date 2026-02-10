@@ -17,5 +17,5 @@ function kilometarTomile(kilo){
     return mile;
 }
 
-
+console.log(kilometarTomile(555));
 
