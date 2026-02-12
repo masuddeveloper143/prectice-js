@@ -16,5 +16,5 @@ function woodQuantity(chairQuantity, tabelQuantity, bedQuantity) {
     return totalWood;
 }
 
-let wood = woodQuantity(0, 0, 1);
+let wood = woodQuantity(0, 10, 0);
 console.log('wood needed', wood);
