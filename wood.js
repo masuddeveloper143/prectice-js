@@ -33,10 +33,15 @@ function woodQuantity2(shortPent, underPent, fullPent) {
     totalunderPentPrice = underPent * perPriceUnderPent;
     totalfullPentPentPrice = fullPent * perPriceFullPent;
 
-    totalWood = totalshortPentPrice + totalunderPentPrice + to;
+    totalWood = totalshortPentPrice + totalunderPentPrice + totalfullPentPentPrice;
 
     return totalWood;
 }
 
-let wood = woodQuantity2(0,0,0,);
-console.log('wood neded', wood)
+let wood = woodQuantity2(3, 0, 0,);
+console.log('wood neded', wood);
+
+
+
+
+
