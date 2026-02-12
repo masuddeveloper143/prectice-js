@@ -14,3 +14,23 @@ function countVowels(str) {
 
 console.log(countVowels("hello aeuou"));
 console.log(countVowels("masud "));
+
+
+// --------------------------------------------------------------------------------
+
+
+// 🔥 আরেকটা clean version(lowercase করে)
+
+
+function countVowels(str) {
+    var count = 0;
+    str = str.toLowerCase();
+
+    for (var i = 0; i < str.length; i++) {
+        if ("aeiou".includes(str[i])) {
+            count++;
+        }
+    }
+
+    return count;
+}
