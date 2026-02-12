@@ -1,17 +1,18 @@
 function findLongestWorsd(str) {
-    let words = str.split(" ");
-    let logest = " ";
+    const words = str.split(" ");
+    let longest = " ";
 
     for (let word of words) {
-        if (word.length > logest.length) {
-            logest = word;
+        if (word.length > longest.length) {
+            longest = word;
         }
     }
-    return logest;
+    return longest;
 
 }
 
-let result = [" i am lerning a programmig to beome a programming"];
+let centence = " i am lerning a programmig to beome a programming";
 
-findLongestWorsd(result);
+let result = findLongestWorsd(centence);
 console.log(result);
+
