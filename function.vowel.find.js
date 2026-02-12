@@ -12,5 +12,5 @@ function countVowels(str) {
     return count;
 }
 
-console.log(countVowels("hello"));
-console.log(countVowels("masud rana"));
+console.log(countVowels("hello aeuou"));
+console.log(countVowels("masud "));
