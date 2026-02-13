@@ -8,6 +8,15 @@ function discountedPrice(quantity){
         let total = quantity*100;
         return total;
     }
+    else if(quantity <= 100){
+        let total = quantity*90;
+        return total
+    }
+    else{
+        let total=quantity*70;
+        return total;
+    }
+        
 }
 
 let result = discountedPrice()
