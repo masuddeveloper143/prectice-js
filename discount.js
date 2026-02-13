@@ -4,8 +4,12 @@
 
 
 function discountedPrice(quantity){
-    if(if quantity <= 100){
+    if( quantity <= 100){
         let total = quantity*100;
         return total;
     }
 }
+
+let result = discountedPrice()
+
+console.log()
