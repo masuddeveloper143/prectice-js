@@ -19,6 +19,6 @@ function discountedPrice(quantity){
         
 }
 
-let result = discountedPrice()
+let result = discountedPrice(100);
 
-console.log()
+console.log(result);
