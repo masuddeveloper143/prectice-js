@@ -35,5 +35,5 @@ function layered100discountedTotal(quantity) {
 }
 
 
-let result = layered100discountedTotal(101);
+let result = layered100discountedTotal(777);
 console.log(result);
