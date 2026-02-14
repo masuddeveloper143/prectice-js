@@ -1,4 +1,4 @@
-function calculatethetotal budget required(laptopQty, tabletQty, mobileQty){
+function calculatethetotalbudgetrequired(laptopQty, tabletQty, mobileQty) {
 
     let laptopPrice = 35000;
     let tabletPrice = 15000;
@@ -14,7 +14,15 @@ function calculatethetotal budget required(laptopQty, tabletQty, mobileQty){
     return total;
 }
 
-let budget = calculatethetotal(44, 66, 66,)
-console.assert.log(budget);
+let budget = calculatethetotalbudgetrequired(2, 1, 3);
+console.log(budget);
+
+// ----------------------------------------------------------------------
+
+// 🔥 Pro Version (Shorter)
+
+function calculateElectronicsBudget(l, t, m) {
+    return (l * 35000) + (t * 15000) + (m * 20000);
+}
 
 
