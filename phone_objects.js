@@ -8,3 +8,18 @@ const phones = [
     { model: "PhoneE", brand: "Iphone", price: 105000 },
     { model: "PhoneF", brand: "HTC", price: 48000 },
 ];
+
+function findAveragePhonePrice(phones) {
+    totel = 0;
+
+    for (let phone of phones) {
+        total += phone.price;
+    }
+
+    let average = total / phones.length;
+
+    return average;
+}
+
+let result = findAveragePhonePrice(phones);
+console.log(result);
