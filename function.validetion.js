@@ -38,5 +38,5 @@ function fulleName(first, second) {
     return full;
 }
 
-let result = fulleName(4, 7)
+let result = fulleName('ikmal')
 console.log(result)
