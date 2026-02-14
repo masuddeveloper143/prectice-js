@@ -1,4 +1,7 @@
-let friends = ["Rahim""Karim""Al""Sumi""Hasan"];
+
+// this is for loop use the cood finde the smallest namae 
+
+let friends = ["Rahim", "Karim", "Al", "Sumi", "Hasan"];
 
 let smallest = friends[0];
 
