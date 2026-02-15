@@ -20,4 +20,6 @@ function willSuccess(marks) {
     }
 }
 
-let arry = [2, 888,0098, 54, 42, 66,]
+let arry = [2, 888,0098, 54, 42, 66,];
+let result = marks(arry);
+console.log(result);
