@@ -17,7 +17,7 @@ console.log(countNumber(result, 8));
 // ---------------------------------------------------------------------------------------------------------
 
 
-🔥 Advanced way (short version)
+// 🔥 Advanced way (short version)
 var numbers = [5, 6, 11, 12, 98, 5];
 
 var result = numbers.filter(num => num === 5).length;
