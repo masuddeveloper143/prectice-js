@@ -1,0 +1,23 @@
+
+
+function willSuccess(marks) {
+    if (!Array.isArray(marks)) {
+        return "invalid";
+
+    }
+
+    let passCount = 0;
+    let failCount = 0;
+
+    for (let mark of marks) {
+        if (mark >= 50) {
+            passCount++;
+        }
+        else {
+            failCount++;
+        }
+        return passCount > failCount;
+    }
+}
+
+let arry = [2, 888,0098, 54, 42, 66,]
