@@ -1,10 +1,9 @@
 
 function calculateVAT(price) {
     if (typeof price !== 'number') {
-        return 'please provide your number';
+        return 'invalid';
     }
-
 }
 
-let result = calculateVAT('49');
+let result = calculateVAT(8);
 console.log(result);
