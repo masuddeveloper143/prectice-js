@@ -20,6 +20,6 @@ function willSuccess(marks) {
     }
 }
 
-let arry = [66];
+let arry = [66, 77, 40,];
 let result = willSuccess(arry);
 console.log(result);
