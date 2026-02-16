@@ -29,6 +29,7 @@ function calculateSleepTime(times) {
 
 
 
-
+let result = calculateSleepTime(times);
+console.log(result);
 
 
