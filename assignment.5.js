@@ -29,7 +29,8 @@ function calculateSleepTime(times) {
 
 
 
-let result = calculateSleepTime([900, 100, 725]);
+let arry = [];
+let result = calculateSleepTime(arry);
 console.log(result);
 
 
