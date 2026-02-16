@@ -19,7 +19,7 @@ function calculateSleepTime(times) {
 
     let minute = Math.floor(remainingSecond / 60);
     let second = remainingSecond % 60;
-
+   
     return {
         hour: hour,
         minute: minute,
