@@ -29,7 +29,7 @@ function calculateSleepTime(times) {
 
 
 
-let arry = [];
+let arry = [1000, 2000, 3000,];
 let result = calculateSleepTime(arry);
 console.log(result);
 
