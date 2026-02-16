@@ -17,8 +17,8 @@ function calculateSleepTime(times) {
     let hour = Math.floor(totalSeconds / 3600);
     let remainingSecond = totalSeconds % 3600;
 
-    let minute = Math.floor(totalSeconds / 60);
-    let remainingSecond = totalSeconds % 60;
+    let minute = Math.floor(remainingSecond / 60);
+    let second = remainingSecond % 60;
 
     return {
         hour: hour,
@@ -29,7 +29,7 @@ function calculateSleepTime(times) {
 
 
 
-let result = calculateSleepTime(times);
+let result = calculateSleepTime([900, 100, 725]);
 console.log(result);
 
 
