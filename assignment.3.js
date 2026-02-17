@@ -16,8 +16,8 @@ function willSuccess(marks) {
         else {
             failCount++;
         }
-        return passCount > failCount;
     }
+    return passCount > failCount;
 }
 
 let arry = [66, 77, 40,];
